@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+}
+.built-in-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 96px;
+  background: #E9F5FF;
+  padding-bottom: 128px;
+}
+.built-in-section .text-box {
+  padding-top: 0;
+  width: 428px;
+  text-align: left;
+}
+.built-in-section .text-box h4 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+  padding: 16px 0;
+}

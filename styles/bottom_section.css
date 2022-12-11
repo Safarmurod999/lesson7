@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+}
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #e9f5ff;
+  padding-bottom: 65px;
+}
+.bottom-section .text-card {
+  width: 451px;
+}
+.bottom-section .text-card h2 {
+  margin-bottom: 16px;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.bottom-section .text-card p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4f4f4f;
+}

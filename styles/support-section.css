@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+}
+.support-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #E9F5FF;
+}
+.support-section .text-box {
+  width: 448px;
+  height: 455px;
+  text-align: left;
+}
+.support-section .text-box span {
+  display: inline-block;
+  padding: 16px 0;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #1391ce;
+}
+ .text-box ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+ .text-box ul li {
+  list-style-image: url('../images/check-circle.svg');
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+  padding: 2.5px 0;
+}
+.img-box {
+  width: 504px;
+  filter: drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.1))
+    drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.04));
+  border-radius: 8px;
+}

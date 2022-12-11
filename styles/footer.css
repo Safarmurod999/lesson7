@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Regular.ttf");
+  }
+footer{
+    background: #1391CE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top : 30px;
+
+  }
+  footer .container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 85%;
+    height: 100px;
+    border-top: 2px solid  #E3E3E3;
+  }
+  footer .text{
+    width: 50%;
+  }
+
+  footer .right{
+    text-align: right;
+  }
+  footer .text p{
+    padding: 55px 0 48px 0;
+    display: inline-block;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #302e2f;
+  }
+  footer p:nth-child(2){
+    color: white;
+  }

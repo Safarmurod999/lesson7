@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+}
+.features-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 96px;
+  background: #e9f5ff;
+  padding-bottom: 128px;
+}
+.features-section .text-box {
+  padding-top: 0;
+  width: 428px;
+  text-align: left;
+}
+.text-box h4 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.text-box h3 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+  margin: 16px 0;
+}
+.text-box p {
+  margin: 32px 0;
+  width: 448px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
